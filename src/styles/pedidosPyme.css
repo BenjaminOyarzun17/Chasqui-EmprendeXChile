@@ -1,0 +1,63 @@
+root{
+    font-size: 20px;
+    --padding-columna:10px;
+}
+
+
+.contenedorPrincipalPedidosPyme{
+    padding: 1rem;
+}
+
+
+.listaProductosPedidosPedidosPyme{
+    list-style-type: none;
+}
+
+
+
+
+.tablaPrincipalPedidosPyme {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+.columnaTablaPrincipalPedidosPyme {
+    border: 1px solid #999;
+    padding: var(--padding-columna);
+
+    text-align: center;
+  }
+
+.bodyTablaPrincipalPedidosPyme{
+    font-weight: normal;
+}
+  
+.fondoVerdeStatusPedidosPyme{
+    background-color: lightgreen;
+    
+
+}
+
+
+.fondoAmarilloStatusPedidosPyme{
+    background-color: lightyellow;
+    
+
+}
+
+
+.fondoRojoStatusPedidosPyme{
+    background-color:lightcoral;
+    
+
+
+}
+
+
+
+
+
+
+
+
+

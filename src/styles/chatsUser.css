@@ -1,0 +1,41 @@
+:root{
+    font-size: 20px;
+}
+
+
+
+.contenedorPrincipalChatsUser{
+    padding: 2rem;
+}
+
+.gridChatUser{
+    display: grid;
+    grid-template-areas: "imagen texto";
+    grid-template-columns: 1fr 3fr;
+    margin: 1rem;
+}
+
+.columnaImagenChatsUser{
+    grid-area: imagen;
+
+}
+
+.columnaTextoChatsUser{
+    grid-area: texto;
+    display: flex;
+    padding-left: 2rem;
+    flex-direction: column;
+    align-items: left;
+    
+}
+
+.imagenChatsUser{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+

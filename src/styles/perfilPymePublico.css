@@ -1,0 +1,70 @@
+:root{
+    font-size: 20px;
+}
+
+#contenedorPrincipalPPP{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 2rem;
+}
+
+
+#gridSuperiorPPP{
+    display: grid;
+    grid-template-areas: "imagen presentacion";
+    grid-auto-columns: 1fr 3fr;
+}
+
+
+#gridInferiorPPP{
+    display: grid;
+    grid-template-areas: "mapa productos";
+    grid-template-columns: 1fr 2fr;
+}
+
+.imagenPPP{
+    width: 100%;
+    height: auto;
+
+}
+
+
+#columnaImagenPPP{
+    grid-area: imagen;
+}
+#columnaPresentacionPPP{
+    grid-area: presentacion;
+    padding-left: 2rem;
+}
+#columnaMapaPPP{
+    margin-top: 2rem;
+    grid-area: mapa;
+}
+#columnaProductoPPP{
+    grid-area: productos;
+    padding: 2rem;
+}
+.gridContenedorTarjetaPPP{
+    display: grid;
+    grid-template-areas: "imagenP textoP";
+    grid-template-columns: 1fr 2fr;
+}
+
+.contenedorTarjetaPPP{
+    padding: 1rem;
+    width:100%;
+
+}
+
+
+.contenedorImagenTarjetaPPP{
+    grid-area: imagenP;
+    width: 100%;
+}
+
+
+.contenedorTextoTarjetaPPP{
+    grid-area: textoP;
+    margin-left: 1rem;
+    
+}

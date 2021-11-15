@@ -1,0 +1,24 @@
+:root{
+    font-size: 20px;
+}
+
+
+.contenedorPrincipalDP{
+    padding: 2rem;
+}
+
+
+.contenedorPymesSlideDP{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cartaPymeDP{
+    padding: 1rem;
+    flex: 1;
+}
+
+.imagenCartaPyme{
+    width: 100%;
+    height: auto;
+}

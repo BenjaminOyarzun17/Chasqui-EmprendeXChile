@@ -1,0 +1,97 @@
+:root{
+    font-size: 20px;
+
+}
+
+#contenedorPrincipalPOVUser{
+    padding: 1rem;
+}
+
+
+
+
+#gridPrincipalPOVUser{
+    display: grid;
+    grid-template-areas: "iz  der";
+    grid-template-columns: 1.3fr 0.7fr;
+
+}
+
+
+
+#contenedorMapaPOVUser{
+    margin-top: 1.5rem;
+}
+
+
+#imagenPymePOVUser{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+
+}
+
+
+.iframe-rwd  {
+    position: relative;
+    padding-bottom: 65.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    }
+.iframe-rwd iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+
+
+
+#contenedorTextoInformativoProductoPOVUser{
+    padding: 2rem;
+}
+
+#datosProductoPOVUser{
+    grid-area: iz;
+
+}
+
+
+#datosPymePOVUser{
+    grid-area: der;
+    padding: 2rem ;
+    text-align: right;
+    
+}
+
+#contenedorTarjetaProductoPOVUser{
+    display: grid;
+    grid-template-areas: "imagen datos";
+    
+}
+
+#contenedorImagenProductoPOVUser{
+   
+    grid-area: imagen;
+}
+
+#contenedorDatosEspecificosProductoPOVUser{
+    grid-area: datos;
+}
+
+#imagenProductoPOVUser{
+    width: 100%;
+    height: auto;
+}
+
+#contenedorProductosSimilaresProductoPOVUser{
+    margin-top: 2rem;
+
+
+}

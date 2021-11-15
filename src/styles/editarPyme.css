@@ -1,0 +1,40 @@
+:root{
+    font-size: 20;
+}
+
+
+#contenedorPrincipalEditarPyme{
+    padding: 1rem;
+
+}
+
+#gridPrincipalEditarPyme{
+    display: grid;
+    grid-template-areas: "i d";
+    grid-template-columns: 1fr 1fr;
+}
+
+#informacionActualizarEditarPyme{
+    grid-area: i;
+}
+
+#ContenedorImagenDecorativaEditarPyme{
+    grid-area: d;
+    align-items: center;
+    padding: 1rem;
+}
+#imagenDecorativaEditarPyme{
+    
+    width: 100%;
+    height: auto;
+}
+#parrafoMotivacionalEditarPyme{
+    text-align: center;
+}
+
+.contenedorInputTipoPymeEditarPyme{
+    margin-bottom: 1rem;
+    margin-left: 0.25rem;
+
+}
+

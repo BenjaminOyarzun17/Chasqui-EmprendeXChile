@@ -1,0 +1,52 @@
+:root{
+    font-size: 20px;
+}
+
+
+#contenedorCalendario{
+    width: 100%;
+    
+    background-color: #ffecc8;
+    z-index: 1;
+}
+#contenedorSecundarioCalendario{
+    padding: 0.25rem;
+}
+
+#contenidoCalendario{
+  max-width: 100vw;
+
+  position: absolute;
+}
+.horarioReservadoCalendario{
+    background-color: rgb(250, 158, 158);
+}
+.horarioDisponibleCalendario{
+    background-color: rgb(148, 253, 148);
+}
+
+
+
+.modal-dialog{
+  max-width: 75%;
+  height: 75%;
+}
+
+
+#tablaCalendario{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+    
+}
+.contenedorTablaCalendario{
+    height: 50%;
+    overflow-y: auto;
+}
+
+.columnaCalendario{
+    padding:0.25rem;
+    font-weight:normal;
+    border: 1px solid #999;
+    text-align: center;
+}

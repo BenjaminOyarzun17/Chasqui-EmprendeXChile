@@ -1,0 +1,156 @@
+
+
+
+@import url(./styles/loginPyme.css);
+@import url(./styles/navegacion.css);
+@import url(./styles/signUp.css);
+@import url(./styles/login.css);
+@import url(./styles/dashboardPyme.css);
+@import url(./styles/chatsPyme.css);
+@import url(./styles/administrarProductos.css);
+@import url(./styles/pedidosPyme.css);
+@import url(./styles/gananciasPyme.css);
+@import url(./styles/dashboardUser.css);
+@import url(./styles/editarPyme.css);
+@import url(./styles/calendario.css);
+@import url(./styles/infoProductoPOVUser.css);
+@import url(./styles/horariosPOVUser.css);
+@import url(./styles/carritoUser.css);
+@import url(./styles/perfilPymePublico.css);
+@import url(./styles/descubrirPymes.css);
+@import url(./styles/pedidosUsuario.css);
+@import url(./styles/misReservas.css);
+@import url(./styles/chatsUser.css);
+@import url(./styles/notLi.css);
+
+@import url(./styles/carouselProductosSimilares.css);
+
+:root{
+  font-size: 20px;
+
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+
+
+
+
+
+.linkNegroNavegacion{
+  color: black;
+  font-weight: 600;
+}
+
+.contenedorCargando{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+}
+
+
+
+
+.itemCargando{
+  height: 100%;
+  width: 100%;
+}
+.dropdown-toggle{
+  background-color: black;
+  border-color:black;
+
+}
+
+.cafeEspecial{
+  background-color: black;
+}
+
+
+.margenBoton{
+  margin-right: 0.5rem;
+}
+
+
+.carousel-control-next{
+  width: 3%;
+}
+
+.carousel-control-prev-icon{
+  background-image:url("https://cpng.pikpng.com/pngl/s/246-2465368_back-arrow-comments-back-arrow-icon-png-clipart.png")
+}
+
+.carousel-control-next-icon{
+  background-image:url("https://www.pngitem.com/pimgs/m/139-1394986_arrows-png-next-slider-arrow-icon-png-transparent.png")
+}
+
+.btn-primary{
+  background-color: coral;
+  border-color: coral;
+}
+.btn-primary:hover{
+  background-color: rgb(248, 94, 38);
+  border-color: rgb(248, 94, 38);
+}
+
+hr{
+  border-color: coral;
+  border-width: 5px;
+}
+
+.hrEspecialSubHeader{
+  border-color: coral;
+  border-width: 4px;
+  width: 30%;
+}
+
+
+
+.carousel-control-prev{
+  width: 3%;
+  color: black;
+}
+
+.contenedorGridPrincipal{
+  margin-top: 2rem;
+  display: grid;
+  grid-template-areas: 
+  "ads sidebar"
+  ;
+  grid-template-columns: 2fr 1.5fr;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.contenedorAdIzquierdoPrincipal{
+  grid-area: ads;
+  padding-left: 1rem;
+}
+
+.contenedorDescripcionChasqui{
+  padding-right: 1rem;
+  grid-area: sidebar;
+  text-align: justify;
+}
+
+
+
+.centradoCarousel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.margenInput{
+  margin-top: 1rem;
+
+
+}

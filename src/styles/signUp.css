@@ -1,0 +1,52 @@
+:root{
+    font-size: 20px;
+}
+
+.contenedorGridSup{
+    display: grid;
+    grid-template-areas: 
+    "ads sidebar"
+    ;
+    grid-template-columns: 2fr 1.5fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorFormaSup{
+    
+    grid-area: ads;
+    padding: 2rem;
+    
+}
+
+#formaSup{
+    width: 80%;
+
+}
+
+#labelSeleccionarTipoUsuarioSup{
+    margin-right: 1rem;
+
+}
+
+#imagenDerechaSup{
+    width: 50%;
+    height: auto;
+    align-self: center;
+    border-radius: 1rem;
+}
+
+
+#botonFormaSup{
+    margin-top: 1rem;
+
+}
+
+
+
+
+.contenedorImagenSup{
+    grid-area: sidebar;
+    padding:3rem;   
+
+}

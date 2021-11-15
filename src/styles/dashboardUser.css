@@ -1,0 +1,36 @@
+:root{
+    font-size: 20px;
+  
+  }
+
+
+
+#contenedorPrincipalDU{
+    padding: 1rem;
+    background-color: white;
+
+}
+
+
+.contenedorProductosServiciosDU{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+.contenedorProductoServicioDU{
+  width: 20%;
+  padding: 1rem;
+  margin: 10px;
+  background-color: white;
+
+}
+
+
+.imagenPreviewDU{
+  height: auto;
+  width: 100%;
+
+}
+
+

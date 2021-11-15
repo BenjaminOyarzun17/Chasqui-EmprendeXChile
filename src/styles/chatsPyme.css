@@ -1,0 +1,209 @@
+
+:root{
+    font-size: 20px;
+  
+}
+
+.enviarMensajePyme{
+    width: 90%;
+    height: 2rem;
+}
+
+
+
+.contenedorMensajesChatEspecificoChatsPyme{
+    height: 380px;
+    
+}
+.contenedorMensajesScrollerChatsPyme{
+    height: 389px;
+    overflow: scroll;
+}
+
+.botonEnviarMensaje{
+    width: 20%;
+    height: 2rem;
+}
+
+.contenedorHeaderChatEspecificoChatsPyme{
+    padding: 1rem;
+    background-color: white;
+
+
+}
+
+
+.WrapperContenedorTextoMensajeEnviadoChatsPyme{
+    display: flex;
+    justify-content: end;
+
+}
+
+
+
+
+.contenedorTextoMensajeEnviadoChatsPyme{
+    background-color: white;
+    font-size: 1rem;
+    width: 50%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 15px;
+
+}
+
+.contenedorTextoMensajeRecibidoChatsPyme{
+    background-color: white;
+    font-size: 1rem;
+    width: 50%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 15px;
+
+}
+
+
+
+
+
+
+
+.contenedorFechaMensajeChatsPyme{
+    font-size: 0.5rem;
+    text-align: right;
+
+}
+
+
+.contenedorPrincipalChatsPyme{
+   
+    justify-content: center;
+}
+
+.contenedorWrapperMensaje{
+    width: 100vw;
+    
+}
+
+
+
+.mensajePropio{
+    display: flex;
+    justify-content: right;
+    padding-right: 1rem;
+}
+
+.mensaje{
+    background-color: white;
+    padding: 1rem;
+    width: auto;
+    max-width: 45%;
+    margin: 0.5rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: black;
+    border-width: 2px;
+
+
+}
+
+
+
+
+
+
+
+
+
+.tarjetaContenedorChatsPyme{
+    padding: 0.5rem;
+    border-style:solid;
+    border-width: 3px;
+    margin-right: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+
+}
+
+.contenedorGrandeNoMessage{
+    position: relative;
+    padding: 2rem;
+    height: 70vh;
+    
+}
+
+
+.contenedorInferiorNoMessageYet{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+.inputNoMessageYet{
+    width: 90%;
+}
+
+
+
+.contenedorPrincipalChatEspecifico{
+    
+    background-color: honeydew;
+    border-style: solid;
+    border-color: black;
+    height: 100%;
+    border-width: 3px;
+
+}
+
+.contenedorImagenPerfilChatsPyme{
+    width: 100%;
+    flex:1;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagenPerfilChatsPyme{
+    height: 90%;
+    width: auto;
+    border-radius: 30px;
+
+}
+
+
+
+.contenedorTextoPerfilChatsPyme{
+    width: 100%;
+    flex:3;
+    text-align: left;
+    padding: 0.5rem;
+}
+
+
+
+.nombreChatChatsPyme{
+    font-size: 2rem;
+}
+.ultimoMensajeChatChatsPyme{
+    font-size: 1rem;
+
+}
+
+
+
+
+
+
+
+

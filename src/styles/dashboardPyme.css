@@ -1,0 +1,49 @@
+:root{
+    font-size: 20px;
+  
+  }
+
+
+#contenedorPrincipalDPyme{
+    display: grid;
+    grid-template-areas: 
+    "  sidebar status";
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem;
+}
+
+
+
+
+#infoGeneralDPyme{
+    grid-area: sidebar;
+    padding: 0.5rem;
+}
+
+#rankingDPyme{
+    grid-area: status;
+    padding: 0.5rem;
+
+}
+
+
+
+
+
+
+.tablaPrincipalPedidosPymeDash {
+    border-collapse: collapse;
+    margin: 1rem;
+    width: 80%;
+  }
+  
+.columnaTablaPrincipalPedidosPymeDash {
+    border: 1px solid #999;
+    padding: var(--padding-columna);
+
+    text-align: center;
+  }
+
+  .bodyTablaPrincipalPedidosPymeDash{
+    font-weight: normal;
+}

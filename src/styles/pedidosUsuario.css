@@ -1,0 +1,38 @@
+:root{
+    font-size: 20px;
+}
+
+
+
+.contenedorPrincipalPedidosUsuario{
+    padding: 2rem;
+
+}
+
+
+.smallGridItemPedidosUser{
+    display: grid;
+    grid-template-areas: "i d v";
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-bottom: 1rem;
+}
+
+.columnaDescripcionItemPedidosUser{
+    grid-area: d;
+}
+
+
+.columnaImagenItemPedidosUser{
+    grid-area: i;
+}
+
+
+.columnaValorItemPedidosUser{
+    grid-area: v;
+   
+}
+
+.imagenItemPedidosUser{
+    width: 80%;
+    height: auto;
+}

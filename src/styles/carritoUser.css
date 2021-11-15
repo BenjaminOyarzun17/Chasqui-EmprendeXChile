@@ -1,0 +1,68 @@
+:root{
+    font-size: 20px;
+}
+
+#contenedorPrincipalCarrito{
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+
+}
+
+.smallGridItemCarro{
+    display: grid;
+    grid-template-areas: "i d v";
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-bottom: 1rem;
+}
+
+.imagenItemCarro{
+    width: 80%;
+    height: auto;
+}
+
+
+
+
+.ulResumenCarrito{
+    list-style: none;
+}
+
+
+.columnaDescripcionItemCarro{
+    grid-area: d;
+}
+
+
+.columnaImagenItemCarro{
+    grid-area: i;
+}
+
+
+.columnaValorItemCarro{
+    grid-area: v;
+   
+}
+
+
+.gridPrincipalCarrito{
+    display: grid;
+    align-items: start;
+    grid-template-areas: "carro resumen";
+    grid-template-columns: 3fr 1fr;
+}
+
+.contenedorColumnaCarrito{
+    grid-area: carro;
+}
+
+.contenedorResumenCarrito{
+    grid-area: resumen;
+}
+
+
+.modalConfirmarPago{
+    padding: 2rem;
+
+
+}

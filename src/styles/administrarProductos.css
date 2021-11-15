@@ -1,0 +1,157 @@
+:root{
+
+    font-size: 20px;
+
+}
+
+.gridPrincipalAdminServicios{
+    display: grid;
+    grid-template-areas: "sidebar ads";
+    grid-template-columns: 2fr 1fr;
+}
+
+
+.parrafoTarjetaServicioAdminServicios{
+    font-size: 1rem;
+    font-weight: normal;
+
+
+
+}
+
+
+
+
+
+.contenedorVisualizadorServiciosActualesAdminServicios{
+    grid-area: sidebar;
+}
+
+
+
+
+
+.contenedorAgregarServicioAdminServicios{
+    grid-area: ads;
+
+}
+
+.botonEliminarServicioAdminServicios{
+    background-color: red;
+    border-color: red;
+    margin-left: 0.5rem;
+}
+
+.contenedorServicioAdminServicios{
+    display: grid;
+    grid-template-areas: "sidebar  ads";
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem;
+}
+
+
+.contenedorInformacionServicioAdminServicios{
+    display:ads;
+    margin-left: 0.5rem;
+}
+.listaDatosInformacionSercioAdminServicio{
+    list-style: none;
+
+}
+
+
+
+
+
+
+
+#contenedorPrincipalAdminProductos{
+    padding: 0.5rem;
+}
+
+
+.contenedorImagenDescriptivaServicioTarjetaAdminServicios{
+    width: 100%;
+    height: 100%;
+    grid-area: sidebar;
+}
+
+
+
+
+.imagenDescriptivaServicioTarjetaAdminServicios{
+    width: 100%;
+    height: inherit;
+}
+
+
+.contenedorPrincipalAdminProductos{
+    padding: 1rem;
+
+}
+
+.gridPrincipalAdminProductos{
+    display: grid;
+    grid-template-areas: "sidebar ads";
+    grid-template-columns: 2fr 1fr;
+}
+
+.contenedorVisualizadorProductosActualesAdminProductos{
+    grid-area: sidebar;
+}
+
+
+.contenedorAgregarProductoAdminProducto{
+    grid-area: ads;
+
+
+}
+
+
+
+.contenedorTarjetaProductoAdminProductos{
+    display: grid;
+    grid-template-areas: "sidebar ads";
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem;
+}
+
+.contenedorImagenTarjetaProductoAdminProductos{
+    grid-area: sidebar;
+    width: 100%;
+    height: 100%;
+}
+
+.imagenTarjetaProductoAdminProductos{
+    width: 80%;
+    height: auto;
+}
+
+
+.contenedorDatosTarjetaProductoAdminProductos{
+    grid-area: ads;
+    font-weight: normal;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+
+.botonEliminarProductoAdminProductos{
+    background-color: red;
+    border-color: red;
+    margin-left: 0.5rem;
+}
+
+
+
+.listaDatosInformacionProductoAdminProductos{
+    list-style: none;
+
+}
+.parrafoTarjetaProductoAdminProductos{
+    font-size: 1rem;
+    font-weight: normal;
+
+
+
+}
